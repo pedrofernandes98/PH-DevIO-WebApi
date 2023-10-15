@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHDevIO.Application", "PHDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHDevIO.Api", "PHDevIO.Api\PHDevIO.Api.csproj", "{50EE0E6B-CEEA-4FBF-BAF3-BF0673D1059D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHDevIO.Infra.IoC", "PHDevIO.Infra.IoC\PHDevIO.Infra.IoC.csproj", "{984A825E-6C92-45EC-951C-D0FB0B7BBB48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{50EE0E6B-CEEA-4FBF-BAF3-BF0673D1059D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50EE0E6B-CEEA-4FBF-BAF3-BF0673D1059D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50EE0E6B-CEEA-4FBF-BAF3-BF0673D1059D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984A825E-6C92-45EC-951C-D0FB0B7BBB48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984A825E-6C92-45EC-951C-D0FB0B7BBB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984A825E-6C92-45EC-951C-D0FB0B7BBB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984A825E-6C92-45EC-951C-D0FB0B7BBB48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
