@@ -5,7 +5,7 @@ namespace PHDevIO.Domain.Interfaces
     public interface IEnderecoRepository
     {
         Task<List<Endereco>> ObterTodosAsync();
-        Task<Endereco> ObterPorIdAsync();
+        Task<Endereco> ObterPorIdAsync(Guid id);
 
         Task<Endereco> AdicionarAsync(Endereco endereco);
         Task<Endereco> AtualizarAsync(Endereco endereco);
