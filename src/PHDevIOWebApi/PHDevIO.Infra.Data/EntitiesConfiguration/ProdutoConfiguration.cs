@@ -8,17 +8,17 @@ namespace PHDevIO.Infra.Data.EntitiesConfiguration
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            builder.HasKey(x => x.Id);
+            builder.HasKey(p => p.Id);
 
-            builder.Property(x => x.Descricao)
+            builder.Property(p => p.Nome)
                 .IsRequired()
                 .HasColumnType("varchar(200)");
 
-            builder.Property(x => x.Descricao)
+            builder.Property(p => p.Descricao)
                 .IsRequired()
                 .HasColumnType("varchar(1000)");
 
-            builder.Property(x => x.Descricao)
+            builder.Property(p => p.Imagem)
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 

@@ -37,3 +37,5 @@ TODO:
 - Upload de documentos
 
 
+dotnet ef migrations add InitDatabase --project PHDevIO.Infra.Data/PHDevIO.Infra.Data.csproj -s PHDevIO.Api/PHDevIO.Api.csproj -c ApplicationDbContext --verbose 
+
